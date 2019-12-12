@@ -1,19 +1,24 @@
 # Shillong-Clinics
-A Website with list of medical clinics in Shillong
+A Website with list of clinics in Shillong
 
 This is an open-source project for providing basic useful information about different clinics in Shillong. 
-It will be a website with information and it will be available in English, Khasi and Hindi Language.
+It will be a website with information about clinics and it will be available in English, Khasi and Hindi Language.
 
 ## Register a clinic 
-  Click on the link, fill the foram and register a clinic for FREE
+  Click on the link, fill the form and register a clinic for FREE
 
   Registration Form: https://forms.gle/2DJDTCLVrcsB1n716
 
-## Todo List
+## Website Status: 
+ __Website is under construction__
+ It will be online by 27th January 2020
+ 
+
+## Web Development Todo List
 **Phase 1**
-1. Create Index.HTML with bootstrap in English Language
-2. Use Datatable to display the list of clinics
-3. Information about clinics to be displayed : Sl. No, Name of Clinic, Doctors Available in Clinic, Location, Phone Number, Open Hours, webiste(optional)
+1. Create Index.HTML with bootstrap in English Language : DONE
+2. Use Datatable to display the list of clinics : DONE
+3. Information about clinics to be displayed : Sl. No, Name of Clinic, Doctors Available in Clinic, Location, Phone Number, Open Hours, webiste(optional) :DENE
 
 **Phase 2**
 1. Have Clinic information displayed on a card:
