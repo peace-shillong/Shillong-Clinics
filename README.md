@@ -18,7 +18,7 @@ It will be a website with information about clinics and it will be available in 
 **Phase 1**
 1. Create Index.HTML with bootstrap in English Language : DONE
 2. Use Datatable to display the list of clinics : DONE
-3. Information about clinics to be displayed : Sl. No, Name of Clinic, Doctors Available in Clinic, Location, Phone Number, Open Hours, webiste(optional) :DENE
+3. Information about clinics to be displayed : Sl. No, Name of Clinic, Doctors Available in Clinic, Location, Phone Number, Open Hours, webiste(optional) :DONE
 
 **Phase 2**
 1. Have Clinic information displayed on a card:
