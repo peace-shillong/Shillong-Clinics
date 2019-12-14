@@ -6,338 +6,162 @@
   <meta name="description" content="A list of basic information of different clinics in Shillong">
   <meta name="author" content="Sngur Shillong">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.css">
   <link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/dataTables.bootstrap4.min.css">
-  <!--<link rel="icon" type="image/png" href="https://sngur.github.io/Hospital-List/dist/images/favicon.png">-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.css">  
+  <link rel="icon" type="image/png" href="images/clinic.png">
+  <style>
+    body{background-image: linear-gradient(rgba(255,0,0,0), beige); }
+  </style>
 </head>
 <body>
 
-<div class="container text-center">
+<div class="container">	
   <br/><br/>
+  <div class="text-center">
+  <img src="images/logo.png" />
   <h2>Welcome to Shillong Clinics</h2>
   <p>This is an open-source project for providing basic useful information about different clinics in Shillong.<br/></p> 
   <p style="background-color:#428bca;margin:10px;padding:10px;color:white;">You are currently viewing this website in English Language. 
     <!--Switch to another Language: <br/>
-    <a class="btn btn-success" href="https://sngur.github.io/Hospital-List/">Khasi</a>&nbsp; 
-    <a class="btn btn-danger" href="https://sngur.github.io/Hospital-List/garo/">Garo</a>&nbsp; 
-    <a class="btn btn-info" href="https://sngur.github.io/Hospital-List/pnar/">Pnar</a>&nbsp;
-    <a class="btn btn-info" href="https://sngur.github.io/Hospital-List/mizo/">Mizo</a>&nbsp; 
+    <a class="btn btn-success" href="https://sngur.github.io/Hospital-List/">Khasi</a>&nbsp;     
     <a class="btn btn-secondary" href="https://sngur.github.io/Hospital-List/hindi/">Hindi</a><br/>-->
-    Currently we have 22 clinics listed here.
-</p>  
+    Currently we have 7 clinics listed here.
+	</p>  
     <p style='background-color:#232323'>
     <br/>
     <h5>Detailed Information</h5>
-    You can "press" on the city name to open the "Clinic Location" in  Google Maps.<br/>
-    You can also call clinics which has phone number, by pressing "call".
+    You can "press" on the clinic address to open the "Clinic Location" in  Google Maps.<br/>
+    You can also call clinic, by pressing "call" icon.
     <br/>
+</p>
+</div>
     <div class="table-responsive">
-    <table id="details" class="table table-striped table-bordered table-condensed" style="width:100%">
+    <table id="details" class="table table-striped table-bordered table-condensed display table-hover" style="width:100%">
         <thead>
             <tr>
                 <th>Sl. No</th>
-                <th>Name</th>
-                <th>City</th>
-                <th>District</th>
-                <th>Phone no</th>
-                <th>Website</th>                
-                <th>Specialize</th>                
-                <th>Open Hours</th>
-                <th>Open Hours</th>                
+                <th>Clinic Information</th>                
             </tr>
         </thead>
         <tbody>            
              <tr>
                 <td>1.</td>
-                <td>Bethany Hospital </td>
-                <td><a href="https://maps.google.com/?cid=17319166468079851376">Shillong</a></td>                    
-                <td>East Khasi Hills</td>
-                <td><a href="tel:03642520300">CALL 0364 2520300</a></td>
-                <td><a href="http://www.bethanyhospitals.com">http://www.bethanyhospitals.com</a></td>
-                <td>General Hospital</td>                                
-                <td>06:00 AM - 08:00 AM</td>
-                <td>04:00 PM - 08:00 PM</td>                
+                <td>
+                <h5><b>Dr. Phanbuh's Clinic</b></h5><hr/>
+                <a href="tel:03642504665"> <img src="images/call.png" /> &nbsp; CALL 0364 250 4665</a><br/>
+                <img src="images/date.png" /> &nbsp; <b>Opens: Monday - Wednesday and Friday - Saturday</b><br/>
+                <img src="images/time.png" /> &nbsp; <b>Timing: 9:30 AM - 7:00 PM (Daily), 9:30 AM - 3:00 PM (Wednesday)</b><br/>
+                <a href="https://maps.app.goo.gl/nr8qFjJ2eYSBMfRr7"> <img src="images/location.png" /> &nbsp;  National Highway 44, Lachumiere, Shillong, Meghalaya 793001</a><br/> 
+                <img src="images/clinic.png" /> &nbsp; <i>Clinic Type: Medical Clinic - Ortho</i><br/>
+                </td>                
             </tr>            
             <tr>
                 <td>2.</td>
-                <td>Bethany Hospital </td>
-                <td><a href="https://maps.google.com/?cid=16290327903199010696">Nongpoh</a></td>
-                <td>Ri Bhoi</td>
-                <td><a href="tel:03642520300">CALL 0364 2520300</a></td>
-                <td><a href="http://www.bethanyhospitals.com">www.bethanyhospitals.com</a></td>
-                <td>General Hospital</td>                
-                <td>06:00 AM - 08:00 AM</td>
-                <td>04:00 PM - 08:00 PM</td>                
+                <td>
+                <h5><b>Dr. Iris Thabah's Clinic</b></h5><hr/>
+                <a href="tel:#"> <img src="images/call.png" /> &nbsp; N/A</a><br/>
+                <img src="images/date.png" /> &nbsp; <b>Opens: Monday - Saturday</b><br/>
+                <img src="images/time.png" /> &nbsp; <b>Timing: 9:00 AM - 5:00 PM</b><br/>
+                <a href="https://maps.app.goo.gl/QkVnvi4L1Xg7Z6Hu9"> <img src="images/location.png" /> &nbsp; Nongrah Rd, Umpling, Shillong, Meghalaya 793006</a><br/> 
+                <img src="images/clinic.png" /> &nbsp; <i>Clinic Type: N/A</i><br/>
+                </td>                
             </tr>
             <tr>
-                <td>2.</td>
-                <td>Children's Hospital</td>
-                <td><a href="https://maps.google.com/?cid=3256293501282741429">Shillong</a></td>
-                <td>East Khasi Hills</td>
-                <td>Phone no</td>
-                <td><a href="http://www.thechildrenhospital.com">www.thechildrenhospital.com</a></td>               
-                <td>Child Care</td>                
-                <td>07:00 AM - 08:00 AM <br/>11:30 AM - 01:00 PM</td>
-                <td>05:00 PM - 06:30 PM</td>                
-            </tr>
-             <tr>
                 <td>3.</td>
-                <td>Civil Hospital </td>
-                <td><a href="https://maps.google.com/?cid=13943051312841274052">Shillong</a></td>
-                <td>East Khasi Hills</td>
-                <td><a href="tel:03642224100">CALL Civil Shillong 0364-2224100</a>
+                <td>
+                <h5><b>Hope Clinic</b></h5><hr/>
+                <a href="tel:08257000001"> <img src="images/call.png" /> &nbsp; CALL 08257000001</a><br/>
+                <img src="images/date.png" /> &nbsp; <b>Opens: Monday - Saturday</b><br/>
+                <img src="images/time.png" /> &nbsp; <b>Timing: 8:00 AM - 6:00 PM</b><br/>
+                <a href="https://maps.app.goo.gl/WSp4GaUcSZZvk5aG8"> <img src="images/location.png" /> &nbsp; 
+ Pine Mount Ridge, Opp Pine Mount School, Barik, Opp Pine Mount School, Barik, Shillong, Meghalaya 793001</a><br/> 
+                <img src="images/clinic.png" /> &nbsp; <i>Clinic Type: Medical Clinic</i><br/>
                 </td>
-                <td>N/A</td>
-                <td>General Hospital</td>                
-                <td>11:00 AM - 1:00 PM</td>
-                <td>04:00 PM - 6:00 PM</td>                
-            </tr>
-            <tr>
-                <td>4.</td>
-                <td>Ganesh Das Hospital</td>
-                <td><a href="https://maps.google.com/?cid=15275334993386377293"> Shillong</a></td>
-                <td>East Khasi Hills</td>
-                <td><a href="tel:03642590766">CALL 0364-2590766</a>
-                    <a href="tel:03642591270">CALL 0364-2591270</a></td>
-                <td>N/A</td>                
-                <td>General Hospital</td>                
-                <td>11:00 AM - 12:00 PM</td>
-                <td>04:00 PM - 06:00 PM</td>                
             </tr>
              <tr>
+                <td>4.</td>
+                <td>
+                <h5><b>Memorial Clinic</b></h5><hr/>
+                <a href="tel:03642220906"> <img src="images/call.png" /> &nbsp; CALL 0364 222 0906</a><br/>
+                <img src="images/date.png" /> &nbsp; <b>Opens: Monday - Saturday</b><br/>
+                <img src="images/time.png" /> &nbsp; <b>Timing: 8:00 AM - 6:00 PM</b><br/>
+                <a href="https://maps.app.goo.gl/cJTENhekYU5tSFPX6"> <img src="images/location.png" /> &nbsp; Near Umshyrpi College, harisava, Laban, Shillong, Meghalaya 793004</a><br/> 
+                <img src="images/clinic.png" /> &nbsp; <i>Clinic Type: Medical Clinic</i><br/>
+                </td>
+            </tr>
+            <tr>
                 <td>5.</td>
-                <td>KJP Robert G. Hospital</td>
-                <td><a href="https://maps.google.com/?cid=591386949204518544"> Shillong</a></td>                
-                <td>East Khasi Hills</td>
-                <td><a href="tel:03642548053">CALL 0364-2548053</a><br/>
-                    <a href="tel:03642546699">CALL 0364-2546699</a></td>
-                <td><a href="http://drhgrobertshospital.com">http://drhgrobertshospital.com</a></td>
-                <td>General Hospital</td>                             
-                <td>11:00 AM - 1:00 PM</td>
-                <td>04:00 PM - 8:00 PM</td>                
-            </tr>           
+                <td>
+                <h5><b>Physio Care Clinic</b></h5><hr/>
+                <a href="tel:08794975995"> <img src="images/call.png" /> &nbsp; CALL 087949 75995</a><br/>
+                <img src="images/date.png" /> &nbsp; <b>Opens: Monday - Saturday</b><br/>
+                <img src="images/time.png" /> &nbsp; <b>Timing: 10:00 AM - 6:00 PM</b><br/>
+                <a href="https://maps.app.goo.gl/sdVT2UAZNRrohFDk8"> <img src="images/location.png" /> &nbsp; Laitumkhrah Main Road, Laitumkhrah, Shillong, Meghalaya 793003</a><br/> 
+                <img src="images/clinic.png" /> &nbsp; <i>Clinic Type: Physiotherapy Clinic</i><br/>
+                </td>
+            </tr>
              <tr>
                 <td>6.</td>
-                <td>NEIGRIHMS</td>
-                <td><a href="https://maps.google.com/?cid=8695514861616250958"> Shillong</a></td>
-                <td>East Khasi Hills</td>
-                <td><a href="tel:03642538013">CALL 0364-2538013</a><br/>
-                    <a href="tel:03642538011">CALL 0364-2538011</a></td>
-                <td><a href="http://www.neigrihms.gov.in">http://www.neigrihms.gov.in</a></td>
-                <td>General Hospital</td>                
-                <td>06:00 AM - 08:00 AM <br/>01:30 PM - 02:30 PM</td>
-                <td>04:00 PM - 06:00 PM</td>               
-            </tr>
+                <td>
+                <h5><b>Remedy Homoeo Clinic</b></h5><hr/>
+                <a href="tel:07638942382"> <img src="images/call.png" /> &nbsp; CALL 076389 42382</a><br/>
+                <img src="images/date.png" /> &nbsp; <b>Opens: N/A</b><br/>
+                <img src="images/time.png" /> &nbsp; <b>Timing: N/A</b><br/>
+                <a href="https://maps.app.goo.gl/2YicsBL8opEViG1t6"> <img src="images/location.png" /> &nbsp; Madanryting,Willme Building ,Main Road Dong Patta junction, Block-C & D, Shillong, Meghalaya 793021</a><br/> 
+                <img src="images/clinic.png" /> &nbsp; <i>Clinic Type: Homoeopathy Clinic</i><br/>
+                </td>
+            </tr>    
             <tr>
                 <td>7.</td>
-                <td>Nazareth Hospital </td>
-                <td><a href="https://maps.google.com/?cid=16981173102918125149"> Shillong</a></td>
-                <td>East Khasi Hills</td>
-                <td><a href="tel:03642210188">CALL 0364-2210188</a></td>
-                <td><a href="http://www.nazarethshillong.in">http://www.nazarethshillong.in</a></td>
-                <td>General Hospital</td>                
-                <td>11:30 AM - 12:30 PM</td>
-                <td>04:00 PM - 05:30 PM</td>                
-            </tr>
+                <td>
+                <h5><b>Shillong Dental Care</b></h5><hr/>
+                <a href="tel:07085055299"> <img src="images/call.png" /> &nbsp; CALL 070850 55299</a><br/>
+                <img src="images/date.png" /> &nbsp; <b>Opens: Monday - Saturday</b><br/>
+                <img src="images/time.png" /> &nbsp; <b>Timing: 11:00 AM - 8:00 PM (Daily), 11:00 AM - 01:00PM (Sunday)</b><br/>
+                <a href="https://maps.app.goo.gl/9cxwPjp9pXZF9Jeb9"> <img src="images/location.png" /> &nbsp; Wardrobe Building, Police Bazaar Opp U.P. Sweet Meat, AC Ln, Police Bazar, Shillong, Meghalaya 793001</a><br/> 
+                <img src="images/clinic.png" /> &nbsp; <i>Clinic Type:  Dental Clinic</i><br/>
+                </td>
+            </tr>       
              <tr>
                 <td>8.</td>
-                <td>Supercare Hospital</td>
-                <td><a href="https://maps.google.com/?cid=6456817305648998798"> Shillong</a></td>
-                <td>East Khasi Hills</td>
-                <td><a href="tel:03642537211">CALL 0364-2537211</a></td>
-                <td><a href="https://supercarehospital.com">https://supercarehospital.com</a></td>
-                <td>General Hospital</td>                
-                <td>11:30 AM - 01:30 PM</td>
-                <td>04:00 PM - 08:00 PM</td>                
-            </tr>
-            <tr>                
-                <td>9.</td>
-                <td>TB Hospital (R. P Chest Hospital, Shillong)</td>                
-                <td><a href="https://maps.google.com/?cid=1603180448215512468"> Shillong</a></td>
-                <td>East Khasi Hills, West Khasi Hills, West Garo Hills</td>
-                <td>N/A</td>
-                <td>N/A</td>
-                <td>TB Hospital</td>                
-                <td>N/A</td>
-                <td>N/A</td>                       
-            </tr>
-            <tr>
-                <td>10.</td>
-                <td>Woodland Hospital</td>
-                <td><a href="https://maps.google.com/?cid=18315409903831417732"> Shillong</a></td>
-                <td>East Khasi Hills</td>
-                <td><a href="tel:03642225240">CALL 0364-2225240</a></td>
-                <td><a href="http://www.woodlandhospital.org">http://www.woodlandhospital.org</a></td>
-                <td>General Hospital</td>                
-                <td>08:00 AM - 09:00 AM <br/>11:00 AM - 01:30 PM</td>
-                <td>04:00 PM - 08:00 PM</td>                
-            </tr>
-            <tr>           
-            <td>11.</td>
-                <td>Military Hospital</td>                
-                <td><a href="https://maps.google.com/?cid=7283013100313314509"> Shillong</a></td>
-                <td>East Khasi Hills</td>
-                <td>N/A</td>
-                <td>N/A</td>
-                <td>General Hospital</td>                
-                <td>N/A</td>
-                <td>N/A</td>        
-            </tr>       
-            <tr>      
-            <td>12.</td>
-                <td>Ramakrishna Mission Charitable Dispensary</td>                
-                <td><a href="https://maps.google.com/?cid=13917832035402359976"> Shillong</a></td>
-                <td>East Khasi Hills</td>
-                <td><a href="tel:03642227787">CALL 0364-2227787</a></td>
-                <td><a href="http://www.rkmshillong.org">http://www.rkmshillong.org</a></td>
-                <td>General Hospital</td>                
-                <td>N/A</td>
-                <td>N/A</td>        
-            </tr>
-            <tr>      
-                <td>13.</td>
-                <td>NEIAH Hospital</td>                
-                <td><a href="https://maps.google.com/?cid=7020825317491028976"> Shillong</a></td>
-                <td>East Khasi Hills</td>
-                <td>N/A</td>
-                <td>N/A</td>
-                <td>General Hospital</td>                
-                <td>N/A</td>
-                <td>N/A</td>        
-            </tr>
-            <tr>            
-                <td>14.</td>
-                <td>Tura Christian Hospital</td>                
-                <td><a href="https://maps.google.com/?cid=546432411719268036"> Tura</a></td>
-                <td>East Khasi Hills</td>
-                <td><a href="tel:03642223855">CALL 03642223855</a></td>
-                <td><a href="http://turachristianhospital.com/">http://turachristianhospital.com/</a></td>
-                <td>General Hospital</td>                
-                <td>N/A</td>
-                <td>N/A</td>        
-            </tr>       
-            <tr>            
-            <td>15.</td>
-                <td>Holy Cross Hospital</td>                
-                <td><a href="https://maps.google.com/?cid=5330724762545915210"> Tura</a>, 
-                    <a href="https://maps.google.com/?cid=9056347628825152892"> Mairang</a></td>
-                <td>West Garo Hills, West Khasi Hills</td>
-                <td><a href="tel:03651‎‎233664">CALL Holy Cross Tura 03651‎‎233664</a></td>
-                <td><a href="http://www.holycrosshospitaltura.com/">http://www.holycrosshospitaltura.com/</a></td>
-                <td>General Hospital</td>                
-                <td>N/A</td>
-                <td>N/A</td>        
-            </tr>
-            <tr>            
-                <td>16.</td>
-                <td>Maternity and Child Hospital (MCH)</td>
-                <td><a href="https://maps.google.com/?cid=3549486784866105277 ">Tura</a></td>
-                <td>West Garo Hills</td>
-                <td>N/A</td>
-                <td>N/A</td>
-                <td>General Hospital</td>                
-                <td>N/A</td>
-                <td>N/A</td>        
-            </tr>
-            <tr>            
-                <td>17.</td>
-                <td>Dr. Norman Tunnel Hospital</td>                
-                <td><a href="https://maps.google.com/?cid=12228549189028389041">Jowai</a></td>
-                <td>West Jaintia Hills</td>
-                <td><a href="tel:03652220722">CALL 03652-220722</a></td>
-                <td>N/A</td>
-                <td>General Hospital</td>                
-                <td>11:00 AM - 01:00 PM</td>
-                <td>04:00 PM - 08:00 PM</td>        
-            </tr>
-            <tr>    
-                <td>18.</td>
-                <td>Tirot Singh Memorial Hospital</td>                
-                <td><a href="https://maps.google.com/?cid=15870021151673837121"> Mairang</a></td>
-                <td>West Khasi Hills</td>
-                <td>N/A</td>
-                <td>N/A</td>
-                <td>General Hospital</td>                
-                <td>N/A</td>
-                <td>N/A</td>                
-            </tr>   
-            <tr>      
-                <td>19.</td>
-                <td>Makarios Medical Center</td>                
-                <td><a href="https://maps.google.com/?cid=4918110709587882455"> Mairang</a></td>
-                <td>West Khasi Hills</td>
-                <td>N/A</td>
-                <td>N/A</td>
-                <td>General Health Center</td>                
-                <td>N/A</td>
-                <td>N/A</td>
-            </tr>   
-            <tr>      
-                <td>20.</td>
-                <td>Maternal Child Health &mp; Family Welfare</td>                
-                <td><a href="https://maps.google.com/?cid=16560444605050125877"> Resubelpara</a></td>
-                <td>North Garo Hills</td>
-                <td>N/A</td>
-                <td>N/A</td>
-                <td>Child and Women Health Center</td>                
-                <td>N/A</td>
-                <td>N/A</td>                
-            </tr>
-            <tr> 
-                <td>21.</td>            
-                <td>Bansara Eye Care Centre</td>                
-                <td><a href="https://maps.google.com/?cid=12141867767612433251"> Shillong</a></td>
-                <td>East Khasi Hills</td>
-                <td><a href="tel:08575060475">CALL 08575060475</a></td>
-                <td>N/A</td>
-                <td>Eye Care</td>                
-                <td>N/A</td>
-                <td>N/A</td>                
-            </tr>   
-            <tr>   
-                <td>22.</td>
-                <td>Mission Nethralaya (Bawri Nethralaya Eye Care Centre)</td>
-                <td><a href="https://maps.google.com/?cid=2701600258808911830"> Shillong</a></td>
-                <td>East Khasi Hills</td>
-                <td>N/A</td>
-                <td>N/A</td>
-                <td>Eye Care</td>                
-                <td>N/A</td>
-                <td>N/A</td>                
-            </tr>   
+                <td>
+                <h5><b>Hope Clinic</b></h5><hr/>
+                <a href="tel:08257000001"> <img src="images/call.png" /> &nbsp; CALL 08257000001</a><br/>
+                <img src="images/date.png" /> &nbsp; <b>Opens: Monday - Saturday</b><br/>
+                <img src="images/time.png" /> &nbsp; <b>Timing: 8:00 AM - 6:00 PM</b><br/>
+                <a href="https://maps.app.goo.gl/WSp4GaUcSZZvk5aG8"> <img src="images/location.png" /> &nbsp; 
+ Pine Mount Ridge, Opp Pine Mount School, Barik, Opp Pine Mount School, Barik, Shillong, Meghalaya 793001</a><br/> 
+                <img src="images/clinic.png" /> &nbsp; <i>Clinic Type: Medical Clinic</i><br/>
+                </td>
+            </tr>            
         </tbody>
         <tfoot>
             <tr>
                 <th>Sl. No</th>
-                <th>Name</th>
-                <th>City</th>
-                <th>District</th>
-                <th>Phone no</th>
-                <th>Website</th>                
-                <th>Specialize</th>                
-                <th>Opening Hours</th>
-                <th>Opening Hours</th>       
+                <th>Clinic Information</th>
             </tr>
             
         </tfoot>
     </table>
-    </div>
-    </p>
+    </div>    
     <p>
       <!--<h4>Share this website:</h4><br/>-->      
       <br/>      
-       Anyone can come along and contribute information, if you know HTML then simply fork this project on github, add and update information and then make a pull request with your contributions, if you don't know HTML then simply send in your information to our email address : <a href="mailto:sngurshillong@gmail.com">sngurshillong@gmail.com</a> and we will update this page.
+       Anyone can come along and contribute information, if you know HTML then simply fork this project on github, add and update information and then make a pull request with your contributions.
+       <br/><br/>
+       <b>If you want to Register your clinic simply fill up the Registration Form for free:</b><br/><br/>
+       <a href="https://forms.gle/2DJDTCLVrcsB1n716"><button class="btn btn-primary">Fill Registration form</button></a>
     </p>
     <p class="text-center"><hr/>
-    This is a non-profit and ad-free website, developed by<br/>
+    This is a non-profit and ad-free website, developed by<br/><br/>
     <a href="http://sngur.com"><img src="https://sngur.github.io/Hospital-List/dist/images/sngur.png" width="100px" /></a>
-    <h5>We are Social, You can find us:</h5><br/>
+    <h5><br/>We are Social, You can find us:</h5><br/>
     <a href="https://facebook.com/sngur.shillong"><img src="https://sngur.github.io/Hospital-List/dist/images/fb_small.png" width="25px" / ></a>
     <a href="https://instagram.com/sngur_shillong"><img src="https://sngur.github.io/Hospital-List/dist/images/ig_small.png" width="25px" / ></a>
     <a href="https://github.com/sngur"><img src="https://sngur.github.io/Hospital-List/dist/images/git_small.png" width="25px" / ></a>
 
     <br/><br/><hr/>
-       <b>If you are a developer join our facebook Group : <a href="https://www.facebook.com/groups/developers.cummunity/">
+       <b>If you are a developer join our facebook Group<a href="https://www.facebook.com/groups/developers.cummunity/">
         <img src="https://sngur.github.io/Hospital-List/dist/images/fb_small.png" width="25px" />
        </a></b> 
     </p>
@@ -345,6 +169,10 @@
 <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
 <script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
 <script src="https://cdn.datatables.net/1.10.19/js/dataTables.bootstrap4.min.js"></script>
-
+<script type="text/javascript">
+    $(document).ready(function() {
+    $('#details').DataTable();
+} );
+</script>
 </body>
 </html>
