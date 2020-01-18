@@ -10,8 +10,8 @@ It will be a website with information about clinics and it will be available in 
   Registration Form: https://forms.gle/2DJDTCLVrcsB1n716
 
 ## Website Status: 
- __Website is under construction__
- It will be online by 27th January 2020
+ __Website is live__
+ It is online since 18th January 2020
  
 
 ## Web Development Todo List
